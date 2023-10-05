@@ -51,3 +51,13 @@ The competent stage is the third level of skill acquisition. In the competent le
 - code that will output correct content in the terminal following best practices
 - "your answers" written in complete sentences the student's own words that provide correct answers
 - well researched and detailed answers written in complete sentences in the student's own words that provides additional context
+
+
+Had to use .replace() with the first challenge.
+Added a .replace for all the letters that needed changing as a chain.
+Each .replace needed a <g> for every extra letter and a <i> so it will not be case sensitive. 
+
+const codedMessage = (str) => {
+    console.log();
+   return str.replaceAll(/a/gi, 4 ).replaceAll(/e/gi, 3).replaceAll(/i/gi, 1).replaceAll(/o/gi, 0)
+}
